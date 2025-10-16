@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    padding: 200px 90px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+.ladydiv{
+    width: 40%;
+    height: 24rem;
+    top: 2.5%;
+    animation-name: lady;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes lady {
+
+    0%{
+        transform: translateY(-25px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-25px);
+    }
+
+}
+/* .apple{
+    transition:transform 1s ease-in-out !important;    
+}
+.apple:hover{
+    transform: translateY(-10px) !important;
+}
+.apple:hover{
+    transform: translateY(-8px);
+} */
+.ladydiv:hover{
+    animation-play-state: paused;
+}
+.lady{
+    position: absolute;
+    top: 0;
+}
+.safe{
+    position: absolute;
+    top: 10%;
+    left: -10%;
+}
+.naira{
+    position: absolute;
+    top: 35%;
+    left: -10%;
+}
+.piggy{
+    position: absolute;
+    left: -10%;
+    bottom: 10%;
+}
+.savings{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.invest{
+    position: absolute;
+    left: 70%;
+    top: 45%;
+}
+.house{
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+}
+.vestpn{
+    animation-name: vest;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+@keyframes vest {
+   0%{
+    transform: rotate(360deg);
+   }
+}
+.pig:hover{
+    background-color: black !important;
+    /* transform: translateY(-8px); */
+
+}
+.sec2{
+    padding: 200px 90px;
+}
+.image{
+    width: 100px;
+    height: 50px;
+}
+.security{
+    width: 620px;
+    height: 50px;
+}
+/* .base{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+} */
+.lift1{
+    transition:right 0.6s ease,opacity 0.6s ease;
+    opacity: 0;
+    transform: translateX(0);    
+}
+.lift1:hover{
+    transform: translateY(-10px);
+}
+.blue:hover .lift1{
+    float: right;
+    opacity: 1;
+}
+.down{
+    bottom: 0;
+}
+/* .bmw{
+    display: inline-flex;
+} */
+/* nav{
+    background-color: #f2f7f8;
+    color: #0d1422;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 7rem 20px 5.5rem;
+    font-family: sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+     display: flex;
+}  */
+/* .nav-links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: #122231;
+} */
+/* .na{
+    color: #0d1422;
+    font-weight: 600;
+} */
+/* .butt1{
+    color: #0d1422;
+    font-weight: 500;
+} */
+/* .but1{
+    width: 5.5rem;
+    height: 3.2rem;
+    border-radius: 8px;
+    border: 1 solid black;
+    background-color: transparent;
+} */
+/* .but2{
+    width: 12rem;
+    height: 3.2rem;
+    border-radius: 8px;
+    background-color: #122231;
+} */
+/* .butt2{
+    font-size: 17px;
+    color: #f2f7f8;
+    align-content: center;
+} */
+/* .nav, a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+} */
